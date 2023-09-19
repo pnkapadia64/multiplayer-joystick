@@ -45,7 +45,6 @@ GameObject:
   - component: {fileID: 5097383938669028455}
   - component: {fileID: 5097383938669028453}
   - component: {fileID: 5097383938669028454}
-  - component: {fileID: 1133383144251578140}
   - component: {fileID: 5239249855951895943}
   - component: {fileID: 222000275356327679}
   m_Layer: 0
@@ -185,19 +184,6 @@ MonoBehaviour:
   mouseSensitivity: 0.5
   rotationLimit: 90
   orientation: {fileID: 5097383938669028452}
---- !u!114 &1133383144251578140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5097383938669028456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8987a750e590a45f081a38df70dc7f4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UI: {fileID: 2156447348054239622}
 --- !u!114 &5239249855951895943
 MonoBehaviour:
   m_ObjectHideFlags: 0

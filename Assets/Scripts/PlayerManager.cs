@@ -39,8 +39,5 @@ public class PlayerManager : MonoBehaviour
         float randomX = Random.Range(-10f, 10f);
         float randomZ = Random.Range(-10f, 10f);
         player.transform.SetPositionAndRotation(new Vector3(randomX, 1f, randomZ), player.transform.rotation);
-
-        //Debug.Log("...player pos: " + playerGameObject.transform.position);
-        //Debug.Log("...camera pos: " + player.cameraTarget.transform.position.ToString());
     }
 }
